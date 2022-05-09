@@ -16,7 +16,9 @@ function App() {
 				<div className="name">Name: {company.name}</div>
 				<div className="numberOfEmployees">Employees: {company.numberOfEmployees}</div>
 				<div className="headquarters">Headquarters: {company.headquarters}</div>
-				
+				<a href={company.homepage}>
+				<img src="/images/googleLogo.png" alt="the logo of Google"/>
+				</a>
 
 			</div>
 		</div>
