@@ -1,5 +1,16 @@
 .App {
   text-align: left;
   padding: 20px;
-  
+}
+
+.company {
+  display: flex;
+}
+
+img {
+  height: 70px;
+}
+
+.info {
+  margin: 0 0 0 10px;
 }
